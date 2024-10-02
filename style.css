@@ -8,12 +8,15 @@ body, html {
     justify-content: center; /* Centra horizontalmente */
     align-items: center; /* Centra verticalmente */
     overflow-y: auto;
+    overflow-x: auto;
 }
 
 table {
     border-collapse: collapse;
-    width: 50%;
     text-align: center;
+    width: 100%;
+    table-layout: fixed; /* Establece un ancho fijo de las celdas */
+    word-wrap: break-word; /* Asegura que el texto largo se ajuste */
 }
 
 th {
